@@ -2,3 +2,5 @@ Initial branch new content
 added 2nd line
 
 added something new
+
+new
