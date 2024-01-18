@@ -1,3 +1,33 @@
-h1{
-    color: gold;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+
+.container{
+    display: flex;
+    background-color: #F8FAE5;
+    margin: 10px;
+    gap: 5px;
+}
+
+.vertical{
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item{
+    background-color: #FAEF9B;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.special{
+    flex-grow: 2;
+}
+
